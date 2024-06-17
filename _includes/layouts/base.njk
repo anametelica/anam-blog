@@ -29,7 +29,7 @@
 		
 	</head>
 	<body>
-
+		<style>{% getBundle "css" %}</style>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 	<header>
@@ -53,6 +53,8 @@
 		<main id="skip">
 			{{ content | safe }}
 		</main>
+
+		<footer></footer>
 
 		<!-- This page `{{ page.url | htmlBaseUrl }}` was built on {% currentBuildDate %} -->
 
