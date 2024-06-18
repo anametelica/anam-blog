@@ -15,7 +15,7 @@ numberOfLatestPostsToShow: 3
   <body>
       <h1>Contact Me</h1>
       
-      <form name="Contact Me"  action="#" netlify>
+      <form name="Contact Me"  action="#" method="POST" netlify data-netlify="true">
  
         <label for="fname">First name:</label><br />
         <input required type='text' id="fname" name='fname' placeholder='Name' >
@@ -23,13 +23,13 @@ numberOfLatestPostsToShow: 3
         <label for="lname">Last name:</label><br />
         <input required type='text' id="lname" name='lname' placeholder='Surname' >
         
-        <label for="email">Email:</label>
+        <label for="email">Email:</label><br />
         <input type='email' id="email" name='email' placeholder='your_email@email.com'>
         
-        <label for="question">Message:</label>
+        <label for="question">Message:</label><br />
         <textarea id="question" name="question" placeholder="Hello!"></textarea>
         
-
+        <button type="submit">Submit</button> 
       </form>
 
   </body>
