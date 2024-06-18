@@ -5,5 +5,42 @@ eleventyNavigation:
   order: 1
 numberOfLatestPostsToShow: 3
 ---
-<h1>contact page<h1>
-<h2>a change<h2>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="styles.css">
+    <title>Class 8 - Form Processing</title>
+  </head>
+  <body>
+      <h1>Class 8 - Form Processing</h1>
+      
+      <h2>Demo 1</h2>
+      <form action="#">
+ 
+        <label for="name">Text:</label><br />
+        <input required type='text' id="name" name='name' placeholder='some text' >
+        
+        <label for="email">Email:</label>
+        <input type='email' id="email" name='email' placeholder='a@a.com'>
+        
+        <label for="password">password:</label>
+        <input type='password' id="password" name='password'>
+        
+        <label for="options">DropDown:</label>
+        <select id="options" name="options">
+          <option value="1">Super</option>
+          <option value="2">Highly</option>
+          <option value="2">Its not its spam</option>
+        </select>
+        
+        <label for="question">Textarea:</label>
+        <textarea id="question" name="question" placeholder="some text"></textarea>
+        
+        <input type="submit">  
+      </form>
+
+  </body>
+</html>
